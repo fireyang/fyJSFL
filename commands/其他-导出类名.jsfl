@@ -1,0 +1,1 @@
+﻿dom = fl.getDocumentDOM();var items  = dom.library.items;var itemsName="";for(var index in items){	var item = items[index];	var linkName = item.linkageClassName;	if(linkName!=undefined){		itemsName +=linkName+",";		//fl.trace(linkName+",");	}	//fl.trace(item.linkageClassName);}fl.trace(itemsName);
